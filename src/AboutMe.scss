@@ -1,0 +1,29 @@
+@import '././styles/variables.scss';
+
+.AboutMe-container {
+   scroll-snap-align: start;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   box-sizing: border-box;
+}
+
+.AboutMe-title {
+    font-family: $font-family-primary;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.AboutMe-line {
+    margin-top: 100px;
+    height: 4px;
+    background-color: black;
+    width: 60%;
+}

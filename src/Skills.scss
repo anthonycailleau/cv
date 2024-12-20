@@ -1,0 +1,46 @@
+@import '././styles/variables.scss';
+
+.skills-container {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    }
+    
+.skills-title {
+    font-family: $font-family-primary;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.skills-line{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    height: 4px;
+    background-color: black;
+    width: 60%;
+}
+
+.skills-logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.skills-logos img {
+    width: 350px;
+    height: auto;
+}
+
+
+
+
+
