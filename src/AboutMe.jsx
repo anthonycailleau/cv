@@ -2,9 +2,9 @@ import './AboutMe.scss';
 
 const AboutMe = () => {
     return (
-        <div className='AboutMe-container'>
-            <h3 className='AboutMe-title'> À propos de moi </h3>
-            <div className='AboutMe-line'></div>
+        <div className='aboutMe-container'>
+            <h3 className='aboutMe-title'> À propos de moi </h3>
+            <div className='aboutMe-line'></div>
         </div>
     );
 };
