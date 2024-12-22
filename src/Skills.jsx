@@ -8,15 +8,15 @@ const Skills = () => {
             <ul className='skills-list'>
             <li className='skill-item'>
                 <img src="coding.png" alt="languages" className='skill-logo' />
-                Développement web: HTML, CSS/SCSS, JavaScript, React, Symfony
+                <div className='skill-text'>Développement web: HTML, CSS/SCSS, JavaScript, React, Symfony</div>
             </li>
             <li className='skill-item'>
                 <img src="responsive-design.png" alt="responsive" className='skill-logo' />
-                Responsive design: Création de sites adaptés à tous les écran
+                <div className='skill-text'>Responsive design: Création de sites adaptés à tous les écran</div>
             </li>
             <li className='skill-item'>
                 <img src="ui-design.png" alt="design" className='skill-logo' />
-                Graphisme: Adobe Photoshop, Illustrator
+                <div className='skill-text'>Graphisme: Adobe Photoshop, Illustrator</div>
             </li>
             {/* <li className='skill-item'>
                 <img src="" alt="" className='skill-logo' />
