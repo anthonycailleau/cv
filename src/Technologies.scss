@@ -1,6 +1,6 @@
 @import '././styles/variables.scss';
 
-.skills-container {
+.technologies-container {
     scroll-snap-align: start;
     height: 100vh;
     display: flex;
@@ -11,7 +11,7 @@
     box-sizing: border-box;
     }
     
-.skills-title {
+.technologies-title {
     font-family: $font-family-primary;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     margin: 0;
 }
 
-.skills-line{
+.technologies-line{
     margin-top: 100px;
     margin-bottom: 80px;
     height: 4px;
@@ -29,13 +29,13 @@
     width: 60%;
 }
 
-.skills-logos{
+.technologies-logos{
     display: flex;
     flex-wrap: wrap;
     gap: 200px;
 }
 
-.skills-logos img {
+.technologies-logos img {
     width: 350px;
     height: auto;
 }

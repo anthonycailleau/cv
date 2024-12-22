@@ -1,11 +1,11 @@
-import './Skills.scss';
+import './Technologies.scss';
 
-const Skills = () => {
+const Technologies = () => {
     return (
-        <div className='skills-container'>
-            <h3 className='skills-title'>Technologies</h3>
-            <div className='skills-line'></div>
-            <div className='skills-logos'>
+        <div className='technologies-container'>
+            <h3 className='technologies-title'>Technologies</h3>
+            <div className='technologies-line'></div>
+            <div className='technologies-logos'>
                 <div> <img src="github.svg" alt="" /> </div>
                 <div> <img src="react.svg" alt="" /> </div>
                 <div> <img src="symfony.svg" alt="" /> </div>
@@ -15,4 +15,4 @@ const Skills = () => {
     );
 };
 
-export default Skills; 
+export default Technologies; 
