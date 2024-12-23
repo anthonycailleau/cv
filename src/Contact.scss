@@ -1,6 +1,6 @@
 @import '././styles/variables.scss';
 
-.creation-process-container {
+.contact-container {
     scroll-snap-align: start;
     height: 100vh;
     display: flex;
@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-.creation-process-title {
+.contact-title{
     font-family: $font-family-primary; 
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     margin: 0;
 }
 
-.creation-process-line {
+.contact-line {
     margin-top: 100px;
     height: 4px;
     background-color: black;

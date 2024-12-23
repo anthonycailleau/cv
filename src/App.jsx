@@ -1,9 +1,10 @@
-import Header from './Header.jsx'; 
+import Header from './Header.jsx';
 import AboutMe from './AboutMe.jsx';
 import Skills from './Skills.jsx';
 import Technologies from './Technologies.jsx';
 import CreationProcess from './CreationProcess.jsx';
-import Footer from './Footer.jsx'; 
+import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
 import './App.scss';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Skills />
       <Technologies />
       <CreationProcess />
+      <Contact />
       <Footer />
     </div>
   );

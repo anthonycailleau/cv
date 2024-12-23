@@ -7,15 +7,15 @@ const Skills = () => {
             <div className='skills-line'></div>
             <ul className='skills-list'>
             <li className='skill-item'>
-                <img src="coding.png" alt="languages" className='skill-logo' />
+                <img src="coding.png" alt="languages-logo" className='skill-logo' />
                 <div className='skill-text'>Développement web: HTML, CSS/SCSS, JavaScript, React, Symfony</div>
             </li>
             <li className='skill-item'>
-                <img src="responsive-design.png" alt="responsive" className='skill-logo' />
+                <img src="responsive-design.png" alt="responsive-logo" className='skill-logo' />
                 <div className='skill-text'>Responsive design: Création de sites adaptés à tous les écran</div>
             </li>
             <li className='skill-item'>
-                <img src="ui-design.png" alt="design" className='skill-logo' />
+                <img src="ui-design.png" alt="design-logo" className='skill-logo' />
                 <div className='skill-text'>Graphisme: Adobe Photoshop, Illustrator</div>
             </li>
             {/* <li className='skill-item'>
