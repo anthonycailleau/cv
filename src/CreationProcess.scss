@@ -1,29 +1,43 @@
-@import '././styles/variables.scss';
+@import "././styles/variables.scss";
 
 .creation-process-container {
-    scroll-snap-align: start;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .creation-process-title {
-    font-family: $font-family-primary; 
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 5rem;
-    font-weight: 500;
-    margin: 0;
+  font-family: $font-family-primary;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 500;
+  text-align: center;
 }
 
 .creation-process-line {
-    margin-top: 100px;
-    height: 4px;
-    background-color: black;
-    width: 60%;
+  margin-top: 100px;
+  height: 4px;
+  background-color: black;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.zoning-title {
+  font-family: $font-family-primary;
+  font-size: 6rem;
+  font-weight: 350;
+  margin-top: 200px;
+}
+
+.creation-process-pictures-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.zoning-picture {
+  margin-top: 100px;
+  height: 1600px;
 }

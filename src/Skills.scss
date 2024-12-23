@@ -6,52 +6,52 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     box-sizing: border-box;
 }
 
 .skills-title{
     font-family: $font-family-primary;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 5rem;
-    font-weight: 500;
-    margin: 0;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 30px;
 }
 
 .skills-line {
-    margin-top: 100px;
-    margin-bottom: 80px;
-    height: 4px;
+    height: 3px;
     background-color: black;
     width: 60%;
+    margin: 0 auto;
 }
 .skills-list {
+
     font-family: $font-family-primary;
     list-style: none;
-    padding: 0;
     display: flex;
-    gap: 1rem;
-    justify-content: center;
+    flex-direction: row;
+    align-items: left;
+    margin-left: 17%;
+    gap: 1px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
 .skill-item {
     display: flex;
-    align-items: left;
-    margin: 1rem;
-    font-size: 3rem;
-    font-weight: 600;
+    flex-direction: row;
+    text-align: center;
+    margin: 30px;
+    font-weight: 500;
 }
 
 .skill-logo {
     margin-right: 1rem;
-    width: 120px;
+    width: 90px;
     height: auto;
 }
 
 .skill-text {
-    margin-top: 1.5rem;
+    font-size: 2em;
+    margin-top: 30px;
 }
