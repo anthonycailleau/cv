@@ -7,6 +7,8 @@ const AboutMe = () => {
             <div className='about-me-line'></div>
             <div className='about-me-presentation-container'>
             <img className='about-me-picture' src="anthony.jpg" alt="photo d'anthony" />
+            <div className='about-me-text-container'>
+            <div className='about-me-text-line'></div>
             <div className='about-me-text'>
                 <p>
                     Développeur Junior spécialisé en JavaScript et React,
@@ -23,6 +25,7 @@ const AboutMe = () => {
                     Passioné par le design, je veillerai à ce que chaque
                     site soit personnalisé.
                 </p>
+            </div>
             </div>
             </div>
         </div >
