@@ -3,9 +3,15 @@ import AboutMe from './AboutMe.jsx';
 import Skills from './Skills.jsx';
 import Technologies from './Technologies.jsx';
 import CreationProcess from './CreationProcess.jsx';
+import Goal from './Goal.jsx';
+import UserStories from './UserStories.jsx';
+import Mvp from './Mvp.jsx';
+// import Zoning from './Zoning.jsx';
+// import Wireframe from './Wireframe.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
 import './App.scss';
+
 
 const App = () => {
   return (
@@ -15,6 +21,11 @@ const App = () => {
       <Skills />
       <Technologies />
       <CreationProcess />
+      <Goal />
+      <UserStories />
+      <Mvp />
+      {/* <Zoning />
+      <Wireframe /> */}
       <Contact />
       <Footer />
     </div>

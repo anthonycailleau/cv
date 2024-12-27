@@ -1,0 +1,69 @@
+@import "././styles/variables.scss";
+
+.user-stories-container {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.user-stories-title {
+  text-align: center;
+  font-family: $font-family-primary;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.user-stories-line {
+  height: 3px;
+  background-color: black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.book {
+  margin-top: 20px;
+  margin-left: 22.5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user-stories-explaination-line {
+  height: 1px;
+  background-color: black;
+  width: 50%;
+  margin-left: 22.5%;
+}
+
+.book img {
+  height: 100px;
+}
+
+.user-stories-explaination h4 {
+  font-family: $font-family-primary;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 22.2%;
+  margin-bottom: 15px;
+}
+.user-stories-explaination p {
+  font-family: $font-family-primary;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user-stories-explaination li {
+  font-family: $font-family-primary;
+  font-size: 1.1rem;
+  text-align: left;
+  font-style: italic;
+  list-style-type: none;
+  margin-left: 31.6%;
+  margin-bottom: 10px;
+}
