@@ -3,7 +3,7 @@ import './AboutMe.scss';
 const AboutMe = () => {
     return (
         <div className='about-me-container'>
-            <h3 className='about-me-title'> À propos de moi </h3>
+            <h3 className='about-me-title'> à propos de moi </h3>
             <div className='about-me-line'></div>
             <div className='about-me-presentation-container'>
             <img className='about-me-picture' src="anthony.jpg" alt="photo d'anthony" />

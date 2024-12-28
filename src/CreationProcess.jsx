@@ -3,7 +3,7 @@ import './CreationProcess.scss';
 const CreationProcess = () => {
     return (
         <div className='creation-process-container'>
-            <h3 className='creation-process-title'>Processus de création</h3>
+            <h3 className='creation-process-title'> processus de création </h3>
             <div className='creation-process-line'></div>
             <div className='notebook'> <img src="notebook.png" alt="" /></div>
             <div className='creation-process-explaination'>

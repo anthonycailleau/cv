@@ -3,7 +3,7 @@ import './Technologies.scss';
 const Technologies = () => {
     return (
         <div className='technologies-container'>
-            <h3 className='technologies-title'>Technologies</h3>
+            <h3 className='technologies-title'> Technologies </h3>
             <div className='technologies-line'></div>
             <div className='technologies-logos'>
                 <div> <img src="github.svg" alt="" /> </div>

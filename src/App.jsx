@@ -6,6 +6,7 @@ import CreationProcess from './CreationProcess.jsx';
 import Goal from './Goal.jsx';
 import UserStories from './UserStories.jsx';
 import Mvp from './Mvp.jsx';
+import Conception from './Conception.jsx'
 // import Zoning from './Zoning.jsx';
 // import Wireframe from './Wireframe.jsx';
 import Contact from './Contact.jsx';
@@ -24,6 +25,7 @@ const App = () => {
       <Goal />
       <UserStories />
       <Mvp />
+      <Conception />
       {/* <Zoning />
       <Wireframe /> */}
       <Contact />

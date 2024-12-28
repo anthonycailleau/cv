@@ -3,7 +3,7 @@ import './Mvp.scss';
 const Mvp = () => {
     return (
         <div className='mvp-container'>
-            <h3 className='mvp-title'> définition du mvp (minimum viable product)</h3>
+            <h3 className='mvp-title'> définition du mvp (minimum viable product) </h3>
             <div className='mvp-line'></div>
             <div className='pyramid'> <img src="pyramid.png" alt="" /></div>
             <div className='mvp-explaination'>

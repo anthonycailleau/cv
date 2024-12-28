@@ -3,7 +3,7 @@ import './Goal.scss';
 const Goal = () => {
     return (
         <div className='goal-container'>
-            <h3 className='goal-title'>Définition des objectifs et des besoins</h3>
+            <h3 className='goal-title'> Définition des objectifs et des besoins </h3>
             <div className='goal-line'></div>
             <div className='check-list'> <img src="goals.png" alt="" /></div>
             <div className='goal-explaination'>
